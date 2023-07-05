@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comrade Tournaments - BGMI Tournament Registration</title>
+</head>
+<body>
+  <h1>Comrade Tournaments - BGMI Tournament Registration</h1>
+  
+  <form action="registration.php" method="post">
+    <label for="team_name">Team Name:</label>
+    <input type="text" id="team_name" name="team_name" required><br><br>
+    
+    <h2>Player Details:</h2>
+    
+    <label for="player1">Player 1 In-Game Name:</label>
+    <input type="text" id="player1" name="player1" required><br><br>
+    
+    <label for="player2">Player 2 In-Game Name:</label>
+    <input type="text" id="player2" name="player2" required><br><br>
+    
+    <label for="player3">Player 3 In-Game Name:</label>
+    <input type="text" id="player3" name="player3" required><br><br>
+    
+    <label for="player4">Player 4 In-Game Name:</label>
+    <input type="text" id="player4" name="player4" required><br><br>
+    
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
